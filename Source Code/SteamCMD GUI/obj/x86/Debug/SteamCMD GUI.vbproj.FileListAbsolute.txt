@@ -11,3 +11,16 @@ C:\Users\Niclas\Desktop\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.exe
 C:\Users\Niclas\Desktop\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.xml
 C:\Users\Niclas\Desktop\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.pdb
 C:\Users\Niclas\Desktop\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.vbprojResolveAssemblyReference.cache
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\bin\Debug\SteamCMD GUI.exe
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\bin\Debug\SteamCMD GUI.pdb
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\bin\Debug\SteamCMD GUI.xml
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.vbprojResolveAssemblyReference.cache
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD_GUI.CommandLineOptionsWindow.resources
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD_GUI.MainMenu.resources
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD_GUI.AboutWindow.resources
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD_GUI.Resources.resources
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD_GUI.LoadingScreen.resources
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.vbproj.GenerateResource.Cache
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.exe
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.xml
+C:\Users\Niclas\Documents\GitHub\SteamCMD-GUI\Source Code\SteamCMD GUI\obj\x86\Debug\SteamCMD GUI.pdb

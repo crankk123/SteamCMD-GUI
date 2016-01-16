@@ -51,10 +51,6 @@ Partial Class MainMenu
         Me.Status = New System.Windows.Forms.TextBox()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.ESButton = New System.Windows.Forms.Button()
-        Me.MMButton = New System.Windows.Forms.Button()
-        Me.SMButton = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.ExeBrowserButton = New System.Windows.Forms.Button()
         Me.ExePath = New System.Windows.Forms.TextBox()
@@ -133,9 +129,16 @@ Partial Class MainMenu
         Me.DonateButton = New System.Windows.Forms.PictureBox()
         Me.IPTextbox = New System.Windows.Forms.TextBox()
         Me.IPButton = New System.Windows.Forms.Button()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.ALButton = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.EPButton = New System.Windows.Forms.Button()
+        Me.SMButton = New System.Windows.Forms.Button()
+        Me.MMButton = New System.Windows.Forms.Button()
+        Me.ESButton = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.TabMenu.SuspendLayout()
         Me.UpdateTab.SuspendLayout()
@@ -148,6 +151,8 @@ Partial Class MainMenu
         Me.ContextMenuStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DonateButton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage1.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'GamesList
@@ -326,33 +331,6 @@ Partial Class MainMenu
         Me.Status.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Status.Name = "Status"
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.ESButton)
-        Me.GroupBox3.Controls.Add(Me.MMButton)
-        Me.GroupBox3.Controls.Add(Me.SMButton)
-        resources.ApplyResources(Me.GroupBox3, "GroupBox3")
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.TabStop = False
-        '
-        'ESButton
-        '
-        resources.ApplyResources(Me.ESButton, "ESButton")
-        Me.ESButton.Name = "ESButton"
-        Me.ESButton.UseVisualStyleBackColor = True
-        '
-        'MMButton
-        '
-        resources.ApplyResources(Me.MMButton, "MMButton")
-        Me.MMButton.Name = "MMButton"
-        Me.MMButton.UseVisualStyleBackColor = True
-        '
-        'SMButton
-        '
-        resources.ApplyResources(Me.SMButton, "SMButton")
-        Me.SMButton.Name = "SMButton"
-        Me.SMButton.UseVisualStyleBackColor = True
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.ExeBrowserButton)
@@ -384,6 +362,7 @@ Partial Class MainMenu
         Me.TabMenu.Controls.Add(Me.UpdateTab)
         Me.TabMenu.Controls.Add(Me.RunTab)
         Me.TabMenu.Controls.Add(Me.ConsoleTab)
+        Me.TabMenu.Controls.Add(Me.TabPage1)
         resources.ApplyResources(Me.TabMenu, "TabMenu")
         Me.TabMenu.Name = "TabMenu"
         Me.TabMenu.SelectedIndex = 0
@@ -872,6 +851,59 @@ Partial Class MainMenu
         Me.IPButton.TabStop = False
         Me.IPButton.UseVisualStyleBackColor = False
         '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.EPButton)
+        Me.TabPage1.Controls.Add(Me.Label9)
+        Me.TabPage1.Controls.Add(Me.ALButton)
+        resources.ApplyResources(Me.TabPage1, "TabPage1")
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'ALButton
+        '
+        resources.ApplyResources(Me.ALButton, "ALButton")
+        Me.ALButton.Name = "ALButton"
+        Me.ALButton.UseVisualStyleBackColor = True
+        '
+        'Label9
+        '
+        resources.ApplyResources(Me.Label9, "Label9")
+        Me.Label9.Name = "Label9"
+        '
+        'EPButton
+        '
+        resources.ApplyResources(Me.EPButton, "EPButton")
+        Me.EPButton.Name = "EPButton"
+        Me.EPButton.UseVisualStyleBackColor = True
+        '
+        'SMButton
+        '
+        resources.ApplyResources(Me.SMButton, "SMButton")
+        Me.SMButton.Name = "SMButton"
+        Me.SMButton.UseVisualStyleBackColor = True
+        '
+        'MMButton
+        '
+        resources.ApplyResources(Me.MMButton, "MMButton")
+        Me.MMButton.Name = "MMButton"
+        Me.MMButton.UseVisualStyleBackColor = True
+        '
+        'ESButton
+        '
+        resources.ApplyResources(Me.ESButton, "ESButton")
+        Me.ESButton.Name = "ESButton"
+        Me.ESButton.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.ESButton)
+        Me.GroupBox3.Controls.Add(Me.MMButton)
+        Me.GroupBox3.Controls.Add(Me.SMButton)
+        resources.ApplyResources(Me.GroupBox3, "GroupBox3")
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.TabStop = False
+        '
         'MainMenu
         '
         resources.ApplyResources(Me, "$this")
@@ -894,7 +926,6 @@ Partial Class MainMenu
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.TabMenu.ResumeLayout(False)
@@ -912,6 +943,9 @@ Partial Class MainMenu
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.DonateButton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -937,10 +971,6 @@ Partial Class MainMenu
     Friend WithEvents OpenFolderButton As System.Windows.Forms.Button
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents AboutButton As System.Windows.Forms.Button
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents ESButton As System.Windows.Forms.Button
-    Friend WithEvents MMButton As System.Windows.Forms.Button
-    Friend WithEvents SMButton As System.Windows.Forms.Button
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents ExeBrowserButton As System.Windows.Forms.Button
     Friend WithEvents ExePath As System.Windows.Forms.TextBox
@@ -1025,5 +1055,12 @@ Partial Class MainMenu
     Friend WithEvents ConsoleIPPrint As System.Windows.Forms.Button
     Friend WithEvents IPTextbox As System.Windows.Forms.TextBox
     Friend WithEvents IPButton As System.Windows.Forms.Button
-
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents ALButton As Button
+    Friend WithEvents EPButton As Button
+    Friend WithEvents Label9 As Label
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents ESButton As Button
+    Friend WithEvents MMButton As Button
+    Friend WithEvents SMButton As Button
 End Class

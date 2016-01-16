@@ -1078,4 +1078,24 @@ Public Class MainMenu
         Status.Text = "Public IP copied"
         Status.BackColor = Color.FromArgb(240, 240, 240)
     End Sub
+
+    Private Sub SMButton_Click(sender As Object, e As EventArgs) Handles SMButton.Click
+
+    End Sub
+
+    Private Sub ALButton_Click(sender As Object, e As EventArgs) Handles ALButton.Click
+        Process.Start("http://www.sourcemod.net")
+    End Sub
+
+    Private Sub EPButton_Click(sender As Object, e As EventArgs) Handles EPButton.Click
+        Process.Start("https://github.com/EpochModTeam/Epoch")
+    End Sub
+
+    Private Sub MMButton_Click(sender As Object, e As EventArgs) Handles MMButton.Click
+
+    End Sub
+
+    Private Sub ESButton_Click(sender As Object, e As EventArgs) Handles ESButton.Click
+
+    End Sub
 End Class
